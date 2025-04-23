@@ -1,0 +1,381 @@
+[
+  {
+    "movieId": 101,
+    "title": "Marvel",
+    "description": "Phim siêu anh hùng với nhiều pha hành động mãn nhãn.",
+    "year": 2019,
+    "genre": "Action, Sci-Fi"
+  },
+  {
+    "movieId": 102,
+    "title": "Interstellar",
+    "description": "Chuyến du hành vượt không gian để cứu nhân loại.",
+    "year": 2014,
+    "genre": "Adventure, Drama, Sci-Fi"
+  },
+  {
+    "movieId": 103,
+    "title": "The Matrix",
+    "description": "Thế giới giả lập và cuộc cách mạng của Neo.",
+    "year": 1999,
+    "genre": "Action, Sci-Fi"
+  },
+  {
+    "movieId": 104,
+    "title": "Avatar",
+    "description": "Hành tinh Pandora và cuộc đấu tranh sinh tồn.",
+    "year": 2009,
+    "genre": "Action, Adventure, Fantasy"
+  },
+  {
+    "movieId": 105,
+    "title": "Titanic",
+    "description": "Câu chuyện tình yêu kinh điển trên con tàu định mệnh.",
+    "year": 1997,
+    "genre": "Drama, Romance"
+  },
+  {
+    "movieId": 106,
+    "title": "Magic Mike’s Last Dance",
+    "description": "Câu chuyện của những vũ công đầy cảm hứng.",
+    "year": 2023,
+    "genre": "Comedy, Drama"
+  },
+  {
+    "movieId": 107,
+    "title": "Bộ 4 báo thủ",
+    "description": "Hành động, kịch tính và tinh thần đồng đội.",
+    "year": 2022,
+    "genre": "Action, Comedy"
+  },
+  {
+    "movieId": 108,
+    "title": "The Wandering Earth",
+    "description": "Phim khoa học viễn tưởng Trung Quốc về cuộc chiến sinh tồn của loài người khi Trái Đất chuẩn bị bị hủy diệt.",
+    "year": 2019,
+    "genre": "Sci-Fi, Action"
+  },
+  {
+    "movieId": 109,
+    "title": "Wolf Warrior 2",
+    "description": "Phim hành động Trung Quốc với những trận chiến căng thẳng, kể về một cựu quân nhân tham gia chiến đấu bảo vệ công dân Trung Quốc ở châu Phi.",
+    "year": 2017,
+    "genre": "Action, War"
+  },
+  {
+    "movieId": 110,
+    "title": "Crouching Tiger, Hidden Dragon",
+    "description": "Phim võ thuật Trung Quốc nổi tiếng, kể về những cuộc chiến giữa các bậc thầy võ công và tình yêu đầy bi kịch.",
+    "year": 2000,
+    "genre": "Action, Drama, Romance"
+  },
+  {
+    "movieId": 111,
+    "title": "The Battle at Lake Changjin",
+    "description": "Phim chiến tranh Trung Quốc về trận chiến nổi tiếng giữa quân đội Trung Quốc và Mỹ trong chiến tranh Triều Tiên.",
+    "year": 2021,
+    "genre": "War, Action"
+  },
+  {
+    "movieId": 112,
+    "title": "Kung Fu Panda",
+    "description": "Một bộ phim hoạt hình hài hước và đầy cảm hứng của Trung Quốc kể về hành trình của một chú gấu trúc trở thành bậc thầy kungfu.",
+    "year": 2008,
+    "genre": "Animation, Adventure"
+  },
+  {
+    "movieId": 113,
+    "title": "Ringu",
+    "description": "Phim kinh dị Nhật Bản kinh điển về một cuốn băng video mà ai xem sẽ chết sau 7 ngày.",
+    "year": 1998,
+    "genre": "Horror, Mystery"
+  },
+  {
+    "movieId": 114,
+    "title": "Seven Samurai",
+    "description": "Phim võ thuật cổ điển Nhật Bản về một nhóm võ sĩ bảo vệ làng khỏi bọn cướp.",
+    "year": 1954,
+    "genre": "Action, Drama"
+  },
+  {
+    "movieId": 115,
+    "title": "Spirited Away",
+    "description": "Phim hoạt hình Nhật Bản giành giải Oscar kể về cuộc phiêu lưu của cô bé đến một thế giới thần bí.",
+    "year": 2001,
+    "genre": "Animation, Fantasy"
+  },
+  {
+    "movieId": 116,
+    "title": "Battle Royale",
+    "description": "Phim Nhật Bản với đề tài bạo lực học đường, nơi học sinh bị ép phải tham gia vào một trò chơi sinh tử.",
+    "year": 2000,
+    "genre": "Action, Thriller"
+  },
+  {
+    "movieId": 117,
+    "title": "Your Name",
+    "description": "Phim hoạt hình Nhật Bản nói về hai người trẻ đổi cơ thể với nhau và hành trình tìm kiếm nhau trong thế giới kỳ diệu.",
+    "year": 2016,
+    "genre": "Animation, Romance, Drama"
+  },
+  {
+    "movieId": 118,
+    "title": "Parasite",
+    "description": "Phim Hàn Quốc đoạt giải Oscar về cuộc sống giữa hai gia đình, một giàu có và một nghèo khó, với những bất ngờ đầy kịch tính.",
+    "year": 2019,
+    "genre": "Drama, Thriller"
+  },
+  {
+    "movieId": 119,
+    "title": "Train to Busan",
+    "description": "Phim zombie Hàn Quốc nổi tiếng kể về hành trình sinh tồn của một nhóm người trên tàu khi dịch zombie lan tràn.",
+    "year": 2016,
+    "genre": "Action, Horror"
+  },
+  {
+    "movieId": 120,
+    "title": "Oldboy",
+    "description": "Phim tâm lý hành động Hàn Quốc nổi tiếng, kể về một người đàn ông bị giam cầm suốt 15 năm và cuộc trả thù sau đó.",
+    "year": 2003,
+    "genre": "Action, Drama"
+  },
+  {
+    "movieId": 121,
+    "title": "The Handmaiden",
+    "description": "Phim tình cảm, tâm lý Hàn Quốc về một âm mưu lừa đảo giữa những người phụ nữ trong bối cảnh lịch sử.",
+    "year": 2016,
+    "genre": "Drama, Thriller"
+  },
+  {
+    "movieId": 122,
+    "title": "I Saw the Devil",
+    "description": "Phim hành động Hàn Quốc về một cảnh sát tìm cách trả thù tên sát nhân đã giết vợ mình.",
+    "year": 2010,
+    "genre": "Action, Thriller"
+  },
+  {
+    "movieId": 123,
+    "title": "Secret Zoo",
+    "description": "Phim Hàn Quốc hài hước về một người đàn ông phải điều hành một vườn thú bị đóng cửa.",
+    "year": 2020,
+    "genre": "Comedy"
+  },
+  {
+    "movieId": 124,
+    "title": "Tình Yêu Bất Diệt",
+    "description": "Phim Việt Nam kể về tình yêu đầy thử thách giữa hai người trẻ trong bối cảnh xã hội hiện đại.",
+    "year": 2015,
+    "genre": "Romance, Drama"
+  },
+  {
+    "movieId": 125,
+    "title": "Em Chưa 18",
+    "description": "Phim Việt Nam về câu chuyện tình yêu giữa một chàng trai và cô gái trẻ, đầy mâu thuẫn và khúc mắc.",
+    "year": 2017,
+    "genre": "Romance, Comedy"
+  },
+  {
+    "movieId": 126,
+    "title": "The Third Wife",
+    "description": "Phim Việt Nam cổ trang về một cô gái trở thành vợ thứ ba trong một gia đình giàu có.",
+    "year": 2018,
+    "genre": "Drama, Romance"
+  },
+  {
+    "movieId": 127,
+    "title": "Cô Ba Sài Gòn",
+    "description": "Phim Việt Nam về câu chuyện của một người phụ nữ Sài Gòn trong bối cảnh thay đổi thời cuộc.",
+    "year": 2018,
+    "genre": "Drama, History"
+  },
+  {
+    "movieId": 128,
+    "title": "Song Lang",
+    "description": "Phim Việt Nam về một câu chuyện đầy cảm xúc trong thế giới cải lương Việt Nam.",
+    "year": 2018,
+    "genre": "Drama, Music"
+  },
+  {
+    "movieId": 129,
+    "title": "Lật Mặt: Nhà Có Khách",
+    "description": "Phim Việt Nam kể về một gia đình đầy bí ẩn với những tình huống gay cấn.",
+    "year": 2020,
+    "genre": "Horror, Thriller"
+  },
+  {
+    "movieId": 130,
+    "title": "Sắc Đẹp Ngàn Cân",
+    "description": "Phim Việt Nam kể về câu chuyện tình yêu giữa một cô gái xấu và một chàng trai đẹp.",
+    "year": 2016,
+    "genre": "Romance, Comedy"
+  },
+  {
+    "movieId": 131,
+    "title": "Cô Gái Đến Từ Hôm Qua",
+    "description": "Phim Việt Nam với câu chuyện tình yêu thời học sinh đầy lãng mạn.",
+    "year": 2017,
+    "genre": "Romance, Drama"
+  },
+  {
+    "movieId": 132,
+    "title": "Nhà Cái Cờ Bạc",
+    "description": "Phim Việt Nam về cuộc sống của những con bạc và sự khao khát chiến thắng.",
+    "year": 2021,
+    "genre": "Drama, Thriller"
+  },
+
+  {
+    "movieId": 133,
+    "title": "Dangal",
+    "description": "Phim Ấn Độ dựa trên câu chuyện có thật về một huấn luyện viên đấu vật và hai con gái của ông.",
+    "year": 2016,
+    "genre": "Drama, Sport"
+  },
+  {
+    "movieId": 134,
+    "title": "3 Idiots",
+    "description": "Phim Ấn Độ về ba sinh viên đại học với những câu chuyện thú vị và cảm động trong cuộc sống.",
+    "year": 2009,
+    "genre": "Comedy, Drama"
+  },
+  {
+    "movieId": 135,
+    "title": "Lagaan",
+    "description": "Phim Ấn Độ nói về một nhóm dân làng chiến đấu với quân Anh qua một trận đấu cricket.",
+    "year": 2001,
+    "genre": "Drama, Sport"
+  },
+  {
+    "movieId": 136,
+    "title": "Baahubali: The Beginning",
+    "description": "Phim sử thi Ấn Độ với những pha hành động hoành tráng và câu chuyện về quyền lực và gia đình.",
+    "year": 2015,
+    "genre": "Action, Drama, Fantasy"
+  },
+  {
+    "movieId": 137,
+    "title": "Jab Tak Hai Jaan",
+    "description": "Phim Ấn Độ kể về một người lính và câu chuyện tình yêu đầy cảm xúc.",
+    "year": 2012,
+    "genre": "Romance, Drama"
+  },
+  {
+    "movieId": 138,
+    "title": "PK",
+    "description": "Phim Ấn Độ về một người ngoài hành tinh tìm kiếm ý nghĩa của cuộc sống trên Trái Đất.",
+    "year": 2014,
+    "genre": "Comedy, Drama, Sci-Fi"
+  },
+  {
+    "movieId": 139,
+    "title": "Kabhi Khushi Kabhie Gham",
+    "description": "Phim Ấn Độ về một gia đình và những mối quan hệ phức tạp giữa các thành viên.",
+    "year": 2001,
+    "genre": "Drama, Family, Music"
+  },
+  {
+    "movieId": 140,
+    "title": "Zindagi Na Milegi Dobara",
+    "description": "Phim Ấn Độ về một chuyến đi của ba người bạn và những bài học cuộc sống họ học được.",
+    "year": 2011,
+    "genre": "Comedy, Drama"
+  },
+  {
+    "movieId": 141,
+    "title": "Sholay",
+    "description": "Phim Ấn Độ kinh điển về cuộc chiến của hai người lính với một tên trùm tội phạm.",
+    "year": 1975,
+    "genre": "Action, Adventure, Drama"
+  },
+  {
+    "movieId": 142,
+    "title": "Andhadhun",
+    "description": "Phim Ấn Độ với những tình huống ly kỳ về một người đàn ông mù và một vụ án giết người.",
+    "year": 2018,
+    "genre": "Crime, Thriller"
+  },
+  {
+    "movieId": 143,
+    "title": "Bad Genius",
+    "description": "Phim Thái Lan về một nhóm học sinh lừa dối để gian lận trong kỳ thi quốc tế.",
+    "year": 2017,
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "movieId": 144,
+    "title": "The Legend of Muay Thai",
+    "description": "Phim Thái Lan về truyền thuyết và sự phát triển của môn võ Muay Thai.",
+    "year": 2017,
+    "genre": "Action, History"
+  },
+  {
+    "movieId": 145,
+    "title": "Shutter",
+    "description": "Phim kinh dị Thái Lan về một cặp đôi gặp phải những sự kiện kỳ lạ sau khi họ vô tình gây ra tai nạn.",
+    "year": 2004,
+    "genre": "Horror, Mystery"
+  },
+  {
+    "movieId": 146,
+    "title": "Ong Bak: Muay Thai Warrior",
+    "description": "Phim Thái Lan về một võ sĩ Muay Thai tìm kiếm tượng Phật cổ bị đánh cắp.",
+    "year": 2003,
+    "genre": "Action, Adventure"
+  },
+  {
+    "movieId": 147,
+    "title": "Bangkok Dangerous",
+    "description": "Phim Thái Lan kể về một sát thủ người Mỹ gặp phải những tình huống nguy hiểm khi đến Bangkok.",
+    "year": 1999,
+    "genre": "Action, Crime, Thriller"
+  },
+  {
+    "movieId": 148,
+    "title": "Love of Siam",
+    "description": "Phim Thái Lan về tình yêu giữa hai cậu bé và những khó khăn trong việc chấp nhận tình cảm của họ.",
+    "year": 2007,
+    "genre": "Drama, Romance"
+  },
+  {
+    "movieId": 149,
+    "title": "The Protector",
+    "description": "Phim Thái Lan về một người đàn ông chiến đấu để bảo vệ con voi của mình khỏi những kẻ xấu.",
+    "year": 2005,
+    "genre": "Action, Drama"
+  },
+  {
+    "movieId": 150,
+    "title": "Laddaland",
+    "description": "Phim kinh dị Thái Lan về một gia đình chuyển đến một ngôi nhà mới và phải đối mặt với những hiện tượng kỳ lạ.",
+    "year": 2011,
+    "genre": "Horror, Mystery"
+  },
+  {
+    "movieId": 151,
+    "title": "Bad Genius",
+    "description": "Phim Thái Lan về những học sinh tài năng sử dụng trí tuệ của mình để gian lận trong kỳ thi quốc tế.",
+    "year": 2017,
+    "genre": "Crime, Drama, Thriller"
+  },
+  {
+    "movieId": 152,
+    "title": "SuckSeed",
+    "description": "Phim Thái Lan hài hước về một nhóm bạn trẻ bắt đầu chơi nhạc và phát hiện ra tài năng đặc biệt của mình.",
+    "year": 2011,
+    "genre": "Comedy, Drama, Music"
+  },
+  {
+    "movieId": 153,
+    "title": "The Love of Siam",
+    "description": "Phim Thái Lan về một cậu bé đang tìm kiếm tình yêu trong khi đang phải đối mặt với những vấn đề gia đình.",
+    "year": 2007,
+    "genre": "Drama, Romance"
+  },
+  {
+    "movieId": 154,
+    "title": "The Queen of Black Magic",
+    "description": "Phim Thái Lan kinh dị về một gia đình quay lại ngôi làng quê và phải đối mặt với những bí mật đáng sợ.",
+    "year": 2019,
+    "genre": "Horror, Thriller"
+  }
+]

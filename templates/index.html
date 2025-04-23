@@ -3,17 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Recommendation System</title>
+    <title>🎬 Movie Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Gợi ý phim hot 2025</h1>
-        <label for="user-id"> User ID:</label>
-        <input type="text" id="user-id" placeholder="1">
-        <button id="get-recommendations"> Tìm kiếm</button>
-        <div id="recommendations"></div>
+        <h1>🎬 Hệ thống gợi ý Phim hot 2025</h1>
+        <form method="POST">
+            <label for="user_id">Chọn user ID:</label>
+            <select name="user_id" id="user_id">
+                <option value="1" {% if user_id == 1 %}selected{% endif %}>User 1</option>
+                <option value="2" {% if user_id == 2 %}selected{% endif %}>User 2</option>
+                <option value="3" {% if user_id == 3 %}selected{% endif %}>User 3</option>
+                <option value="4" {% if user_id == 4 %}selected{% endif %}>User 4</option>
+            </select>
+
+            <label for="genre">Chọn thể loại phim:</label>
+            <select name="genre" id="genre">
+                <option value="">-- Chọn thể loại --</option>
+                <option value="Action" {% if genre =="Action" %}selected{% endif %}>Action</option>
+                <option value="Drama" {% if genre =="Drama" %}selected{% endif %}>Drama</option>
+                <option value="Comedy" {% if genre =="Comedy" %}selected{% endif %}>Comedy</option>
+                <option value="Sci-Fi" {% if genre =="Sci-Fi" %}selected{% endif %}>Sci-Fi</option>
+                <option value="Romance" {% if genre =="Romance" %}selected{% endif %}>Romance</option>
+                <option value="Horror" {% if genre =="Horror" %}selected{% endif %}>Horror</option>
+            </select>
+
+            <label for="num_recommendations">Số lượng phim gợi ý:</label>
+            <select name="num_recommendations" id="num_recommendations">
+                <option value="5" {% if num_recommendations == 5 %}selected{% endif %}>5</option>
+                <option value="10" {% if num_recommendations == 10 %}selected{% endif %}>10</option>
+                <option value="15" {% if num_recommendations == 15 %}selected{% endif %}>15</option>
+                <option value="20" {% if num_recommendations == 20 %}selected{% endif %}>20</option>
+            </select>
+
+            <button type="submit">🎯 Gợi ý phim</button>
+        </form>
+
+        {% if recommendations %}
+            <div id="recommendations">
+                <h3>📽 Gợi ý phim cho User {{ user_id }}:</h3>
+                {% for movie in recommendations %}
+                    <div class="movie-card">
+                        <div class="movie-title">{{ movie.title }}</div>
+                        <div class="movie-meta">Năm: {{ movie.year }} | Thể loại: {{ movie.genre }}</div>
+                        <p>{{ movie.description }}</p>
+                        <!-- Liên kết chuyển hướng tìm kiếm Google khi bấm vào phim -->
+                        <p>🎬 <a href="https://www.google.com/search?q={{ movie.title | urlencode }}+movie" target="_blank">Tìm trên Google</a></p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% endif %}
     </div>
-    <script src="static/script.js"></script>
+
+    <script>
+        // Tạo sự kiện cho nút "Gợi ý phim"
+        document.getElementById("get-recommendations").addEventListener("click", function() {
+            let userId = document.getElementById("user-id").value;
+            let resultDiv = document.getElementById("recommendations");
+
+            fetch(`/recommend?user_id=${userId}`)
+            .then(response => response.json())
+            .then(data => {
+                resultDiv.innerHTML = "<h3>Gợi ý phim:</h3>";
+                if (data.recommendations.length > 0) {
+                    data.recommendations.forEach(movie => {
+                        let movieName = encodeURIComponent(movie.title);  // Mã hóa tên phim cho URL
+                        let searchUrl = `https://www.google.com/search?q=${movieName}+movie`;  // Tạo URL tìm kiếm Google
+
+                        // Tạo liên kết với Google search
+                        resultDiv.innerHTML += `<p>🎬 <a href="${searchUrl}" target="_blank">${movie.title}</a></p>`;
+                    });
+                } else {
+                    resultDiv.innerHTML += "<p>No recommendations available.</p>";
+                }
+            })
+            .catch(error => {
+                console.error("Error fetching recommendations:", error);
+                resultDiv.innerHTML = "<p style='color: red;'>Error fetching recommendations. Check console.</p>";
+            });
+        });
+    </script>
 </body>
 </html>
